@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Take out</title>
+  <link rel="stylesheet" href="css/takeout.css">
+</head>
+<body>
+    <div class="container">
+        <form method="post" name="forms" action="takeout.html" width=70%>
+            <fieldset>
+              <legend>Personal Information</legend>
+                <label>First Name:</label> <input type="text" name="fname" size=25/>
+                <label>Last Name:</label> <input type="text" name="lname" size=25/>
+                <label>Mobile #:</label> <input type="text" name="mobile" size=25/>
+                <label>Address: <textarea col=70 rows=1 name="address"></textarea></label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Order Details</legend>
+              <select name="Quantity">
+                <option>Select Quantity</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+              </select>
+              <label>Delivery Date:</label><input type="date" name="date"/>
+              <label>Delivery Time:</label><input type="time" name="time"/>
+              <select name="payment">
+                <option>Select payment option</option>
+                <option value="1">Visa</option>
+                <option value="2">Master Card</option>
+                <option value="3">Amex</option>
+                <option value="4">Discover</option>
+              </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pizza</legend>
+                <input type="radio" name="pizza" value="1"/>Pepperoni
+                <input type="radio" name="pizza" value="1"/>Hawaiian
+                <input type="radio" name="pizza" value="1"/>Vegetarian
+                <input type="radio" name="pizza" value="1"/>Gluten-free
+            </fieldset>
+
+            <fieldset>
+                <legend>Sandwiches</legend>
+                <input type="radio" name="sandwich" value="1"/>Grill chicken sandwich
+                <input type="radio" name="sandwich" value="1"/>Beef sandwich
+                <input type="radio" name="sandwich" value="1"/>fish sandwich
+            </fieldset>
+
+            <fieldset>
+                <legend>Pasta</legend>
+                <input type="radio" name="pasta" value="1"/>Parmesan Shrimp Alfredo
+                <input type="radio" name="pasta" value="1"/>Cheese ravioli
+                <input type="radio" name="pasta" value="1"/>Chicken fettuccini
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Roast beef</legend>
+                <input type="radio" name="roast" value="1"/>Super beef
+                <input type="radio" name="roast" value="1"/>Junior beef
+                <input type="radio" name="roast" value="1"/>Large beef
+            </fieldset>
+
+            <fieldset>
+                <legend>Drinks</legend>
+                <input type="radio" name="drink" value="1"/>Coke
+                <input type="radio" name="drink" value="1"/>Pepsi
+                <input type="radio" name="drink" value="1"/>Dew
+                <input type="radio" name="drink" value="1"/>Fanta
+                <input type="radio" name="drink" value="1"/>Sprite
+            </fieldset>
+
+        </form>
+
+        <section class="location">
+
+                <h3 class="titulo">Location</h3>
+                <div class="address">
+                    <h3>Address</h3>
+                    <p class="street">2915 Primrose Lane<br>Boston, Ma 02131</p>
+                    <p class="email">email @lizbethabreu.com</p>
+                </div>
+
+                <div class="hours">
+                    <h3>Hours</h3>
+                    <p class="weekdays">Monday-Friday <br> 8:00am - 9:00pm</p>
+                    <p class="weekend">Saturday-Sunday <br> 10:00am - 6:00pm</p>
+               </div>
+        </section>
+
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2947.7787518498494!2d-71.08143299818042!3d42.368554200368756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1671518179874!5m2!1sen!2sus" width="1600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+
+    </div>
+</body>
+</html>

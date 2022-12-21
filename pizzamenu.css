@@ -1,0 +1,30 @@
+* {margin:0;
+   padding:0;
+   box-sizing: border-box;}
+
+   body{ background-color: #DDA15E;}
+
+   .container{width: 90%;
+              max-width: 1000px;
+              margin: auto;
+              overflow:hidden;}
+  h3 {font-size: 30px;
+      text-align: center;
+      padding top: 35px;
+      border-bottom: 3px dotted black;}
+
+article .categoria {font-size: 20px;
+                    font-weight: bold;
+                    color:#cc5803;}
+
+.precio {text-align: right;
+         border-bottom: 1px dotted black;
+         font-weight: bold; }
+
+.nombre {font-weight: bold;
+         color: #403D39;
+         font-style: italic;
+         padding-top: 10px;}
+
+.description {padding-bottom: 10px;
+              padding-top: 5px;}
